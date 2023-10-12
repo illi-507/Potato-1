@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/files": {
+      "name": "/files",
+      "lambdaFunction": "enginefrontend1e7ec856",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}
