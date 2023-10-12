@@ -19,6 +19,3 @@ npm start
 
 ## Author
 Siqi Cao
-
-## License
-This code is released under the MIT license.
