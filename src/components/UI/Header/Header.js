@@ -7,7 +7,7 @@ const header = () => {
   return (
     <div className='header'>
       <TopBar />
-      <Nav />
+      {/*<Nav />*/}
     </div>
   );
 };

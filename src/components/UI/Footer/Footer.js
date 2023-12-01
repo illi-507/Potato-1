@@ -13,11 +13,8 @@ const footer = () => {
             </div>
             <div className='footer-content'>
               <p>
-                <small className='text-muted'>
-                  Aenean suscipit eget mi act fermentum phasellus vulputate
-                  turpis tincidunt. Aenean suscipit eget. Aenean suscipit eget
-                  mi act fermentum phasellus vulputate turpis tincidunt. Aenean
-                  suscipit ege Aenean suscipit eget mi act fermentum phasellus.
+                <small className='text-muted123'>
+                  TradinAI
                 </small>
               </p>
               <button className='btn btn-sm btn-primary rounded-0'>
@@ -57,19 +54,11 @@ const footer = () => {
             </div>
             <div className='footer-content'>
               <p>
-                <small className='text-muted'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <small className='text-muted123'>
+                  TradinAI
                 </small>
               </p>
-              <p>
-                <small className='text-muted'>
-                  Pellentesque et pulvinar enim. Quisque at tempor ligula Natus
-                  error sit voluptatem
-                </small>
-              </p>
-              <p>
-                <small className='text-muted'>accusantium doloremque</small>
-              </p>
+
             </div>
           </div>
           <div className='col-sm-6 col-md-6 col-lg-3 mb-5'>
@@ -77,14 +66,14 @@ const footer = () => {
               <h6>Contact Us</h6>
             </div>
             <div className='footer-content'>
-              <p className='text-muted'>
-                <small>Address : 123 main street, Algiers, Algeria</small>
+              <p className='text-muted123'>
+                <small>Address : </small>
               </p>
-              <p className='text-muted'>
-                <small>Phone : +213 (0) 123 456 789</small>
+              <p className='text-muted123'>
+                <small>Phone : </small>
               </p>
-              <p className='text-muted'>
-                <small>E-mail : contact@email.com</small>
+              <p className='text-muted123'>
+                <small>E-mail : </small>
               </p>
               <div className='social-media mt-4'>
                 <a href='!#' className='text-light'>

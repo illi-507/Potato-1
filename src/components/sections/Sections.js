@@ -14,10 +14,10 @@ const sections = () => {
       <Home />
       <About />
       <Service />
-      <Blog />
+     {/**<Blog /> 
       <Facts />
-      <Contact />
-      <MapMarker />
+     {/**<Contact /> 
+      <MapMarker />*/} 
     </Fragment>
   );
 };

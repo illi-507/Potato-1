@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
 import Link from '../Link/Link';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Login from '../../../Login';
 
 const Nav = () => {
   const [navClass, setNavClass] = useState('');
@@ -60,19 +62,18 @@ const Nav = () => {
                 Services
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link target='blog' classes='nav-link'>
-                Blog
+
+            {/*<li className='nav-item'>
+              <Link  classes='nav-link'>
+                User Login
               </Link>
-            </li>
-            <li className='nav-item'>
-              <Link target='contact' classes='nav-link'>
-                Contact
-              </Link>
-            </li>
+        </li>        */    }
+
+        
           </ul>
         </div>
       </div>
+
     </nav>
   );
 };

@@ -1,8 +1,21 @@
 import React from 'react';
-
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import logo from '../../Login/tradinlogo.png'; 
 const topBar = () => {
   return (
-    <div className='top-bar pt-1 pb-1 text-light'>
+    
+  <div className='top-bar-container'>    
+    <img className='home-nav-logo' src={logo} alt='logo'></img>
+    <div className='home-nav-item'>TradinAI</div>
+      
+    <div className='top-bar-signin'>
+    <Link className='link-unstyled' to="/profile" >
+      Launch Page</Link>
+    </div>
+     
+
+  </div>
+   /* <div className='top-bar pt-1 pb-1 text-light'>
       <div className='container'>
         <div className='d-flex justify-content-between'>
           <div className='d-flex pt-2 pb-2'>
@@ -33,7 +46,7 @@ const topBar = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div>*/
   );
 };
 
