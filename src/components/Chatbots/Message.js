@@ -148,6 +148,19 @@ const CompanyTable = ({
           .map((cell) => cell.trim())
           .filter(Boolean)
           .filter((cell) => /[a-zA-Z0-9]/.test(cell));
+          let temp = cells[0];
+          if (
+            temp !== undefined &&
+            !temp.includes("Heading") &&
+            temp !== "Device Name"
+          ) {
+            companyNames.push(cells[0]);
+          }
+         
+          if( !temp ||
+             temp.includes("Heading") ){
+              return;
+            }
       
         if (cells.length && extraData && extraData.length &&extraData[extraDataIndex]) {
           console.log("INTO PUSHING~--------",extraData[extraDataIndex], extraDataIndex );
@@ -159,19 +172,7 @@ const CompanyTable = ({
 
 
         const Element = rowIndex === 0 ? "th" : "td";
-        let temp = cells[0];
-        if (
-          temp !== undefined &&
-          !temp.includes("Heading") &&
-          temp !== "Device Name"
-        ) {
-          companyNames.push(cells[0]);
-        }
        
-        if( !temp ||
-           temp.includes("Heading") ){
-            return;
-          }
         return (
           <tr key={rowIndex}>
             {cells.map((cell, cellIndex) => (
