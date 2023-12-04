@@ -20,12 +20,12 @@ const about = () => {
               <div className="about-description">
                 <p>
                   Trade Al is the world's leading provider of artificial
-                  intelligencetechnology for global trade compliance. Using
-                  Trade Ai's SAASsoftware, clients across all global trade
-                  industry verticals canautomate the complex and time consuming
-                  tasks of globaltrade compliance. from large multinational
-                  corporations tolaw firms and logistics companies, Trade Al is
-                  making globaltrade smarter, faster, and easier for everyone.
+                  intelligence technology for global trade compliance. Using
+                  Trade Ai's SAAS software, clients across all global trade
+                  industry verticals can automate the complex and time consuming
+                  tasks of global trade compliance. From large multinational
+                  corporations to law firms and logistics companies, Trade Al is
+                  making global trade smarter, faster, and easier for everyone.
                 </p>
               </div>
             </div>
