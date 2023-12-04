@@ -8,7 +8,7 @@ const LogoutButton = () => {
     isAuthenticated && (
       <button onClick={() => {
         logout({
-            returnTo: 'http://localhost:3000/profile', // Specify your desired redirect URL
+            returnTo:  process.env.REACT_APP_AUTH0_CALLBACK_URL, // Specify your desired redirect URL
           });
       }}>
         LogOut

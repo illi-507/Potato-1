@@ -10,7 +10,7 @@ const LogoutButton = () => {
       <button
         onClick={() => {
           logout({
-            returnTo: "http://localhost:3000/profile", // Specify your desired redirect URL
+            returnTo:  process.env.REACT_APP_AUTH0_CALLBACK_URL, // Specify your desired redirect URL
           });
         }}
       >
@@ -35,7 +35,7 @@ function DropdownItem({ title }) {
       <button ref={buttonRef } style={{display:"none"}}
         onClick={() => {
           logout({
-            returnTo: "http://localhost:3000/profile", // Specify your desired redirect URL
+            returnTo:  process.env.REACT_APP_AUTH0_CALLBACK_URL, // Specify your desired redirect URL
           });
         }}
       >
